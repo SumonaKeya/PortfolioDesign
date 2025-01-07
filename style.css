@@ -59,7 +59,9 @@ ul li a {
 .dark2{
     color:#474747;
    }
-
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 
    /* ///////////////////////////////////Banner */
    .banner-greet{
@@ -70,11 +72,7 @@ ul li a {
     font-size: 85px;
 font-weight: 700;
    }
-   .banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 35px 0 230px ;
-   }
+   .banner { display: flex; justify-content: space-between; margin: 0 35px 0 35px; /* Adjusted the left margin */ }
 .banner-content{
     max-width: 580px;
 }
@@ -84,3 +82,39 @@ font-weight: 700;
 background-repeat:no-repeat ;
 background-position: top left, bottom;
 }
+.banner-img { margin-top: 150px;}
+
+
+
+/* //////////////////////////////About */
+ .section-title{
+    font-size: 45px;
+    font-weight: 600;
+    color:#181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#474747;
+ 
+}
+.about {
+   border-radius: 10px;
+} 
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+ }
+
+
+ .about-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
+ .item-description{
+font-weight: 600;
+
+ }
